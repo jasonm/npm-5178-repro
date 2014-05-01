@@ -1,0 +1,449 @@
+[master] /tmp/testapp $ ./build.sh
+++ node -v
+v0.10.26
+++ npm -v
+1.4.8
+++ mkdir -p npm_cache
+++ rm -rf node_modules
+++ npm install --cache=./npm_cache
+
+npm http GET https://registry.npmjs.org/grunt-contrib-jshint
+npm http GET https://registry.npmjs.org/matchdep
+npm http GET https://registry.npmjs.org/grunt-cli
+npm http GET https://registry.npmjs.org/grunt-contrib-copy
+npm http GET https://registry.npmjs.org/grunt-contrib-requirejs
+npm http GET https://registry.npmjs.org/bower
+npm http GET https://registry.npmjs.org/grunt-sass
+npm http GET https://registry.npmjs.org/grunt-contrib-watch
+npm http 304 https://registry.npmjs.org/grunt-contrib-copy
+npm http 304 https://registry.npmjs.org/matchdep
+npm http 304 https://registry.npmjs.org/grunt-contrib-requirejs
+npm http 304 https://registry.npmjs.org/grunt-contrib-jshint
+npm http 304 https://registry.npmjs.org/grunt-cli
+npm http 304 https://registry.npmjs.org/grunt-contrib-watch
+npm http 304 https://registry.npmjs.org/bower
+npm http 304 https://registry.npmjs.org/grunt-sass
+npm http GET https://registry.npmjs.org/node-sass
+npm http GET https://registry.npmjs.org/async
+npm http GET https://registry.npmjs.org/chalk
+npm http 304 https://registry.npmjs.org/chalk
+npm http GET https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/minimatch
+npm http GET https://registry.npmjs.org/nopt
+npm http GET https://registry.npmjs.org/findup-sync
+npm http GET https://registry.npmjs.org/mocha
+npm http GET https://registry.npmjs.org/commander
+npm http GET https://registry.npmjs.org/jshint
+npm http 304 https://registry.npmjs.org/node-sass
+npm http 304 https://registry.npmjs.org/commander
+npm http 304 https://registry.npmjs.org/async
+npm http 304 https://registry.npmjs.org/nopt
+npm http 304 https://registry.npmjs.org/findup-sync
+npm http GET https://registry.npmjs.org/sigmund
+npm http GET https://registry.npmjs.org/lru-cache
+npm http 304 https://registry.npmjs.org/sigmund
+npm http GET https://registry.npmjs.org/strip-ansi
+npm http GET https://registry.npmjs.org/has-color
+npm http GET https://registry.npmjs.org/ansi-styles
+npm http 304 https://registry.npmjs.org/lru-cache
+npm http 304 https://registry.npmjs.org/mocha
+npm http 304 https://registry.npmjs.org/jshint
+npm http 304 https://registry.npmjs.org/ansi-styles
+npm http 304 https://registry.npmjs.org/strip-ansi
+npm http GET https://registry.npmjs.org/grunt-retro
+npm http GET https://registry.npmjs.org/request
+npm http GET https://registry.npmjs.org/lodash
+npm http GET https://registry.npmjs.org/abbrev
+npm http GET https://registry.npmjs.org/glob
+npm http GET https://registry.npmjs.org/gaze
+npm http GET https://registry.npmjs.org/tiny-lr
+npm http GET https://registry.npmjs.org/keypress
+npm http 304 https://registry.npmjs.org/has-color
+npm http 304 https://registry.npmjs.org/lodash
+npm http 304 https://registry.npmjs.org/abbrev
+npm http 304 https://registry.npmjs.org/grunt-retro
+npm http 304 https://registry.npmjs.org/glob
+npm http 304 https://registry.npmjs.org/gaze
+npm http 304 https://registry.npmjs.org/keypress
+npm http 304 https://registry.npmjs.org/request
+npm http GET https://registry.npmjs.org/colors
+npm http GET https://registry.npmjs.org/dateformat
+npm http 200 https://registry.npmjs.org/tiny-lr
+npm http GET https://registry.npmjs.org/eventemitter2
+npm http GET https://registry.npmjs.org/iconv-lite
+npm http GET https://registry.npmjs.org/hooker
+npm http GET https://registry.npmjs.org/rimraf
+npm http GET https://registry.npmjs.org/underscore.string
+npm http GET https://registry.npmjs.org/which
+npm http GET https://registry.npmjs.org/js-yaml
+npm http GET https://registry.npmjs.org/coffee-script
+npm http GET https://registry.npmjs.org/tiny-lr/-/tiny-lr-0.0.4.tgz
+npm http 304 https://registry.npmjs.org/iconv-lite
+npm http 304 https://registry.npmjs.org/hooker
+npm http 200 https://registry.npmjs.org/tiny-lr/-/tiny-lr-0.0.4.tgz
+npm http GET https://registry.npmjs.org/shelljs
+npm http GET https://registry.npmjs.org/underscore
+npm http GET https://registry.npmjs.org/cli
+npm http GET https://registry.npmjs.org/console-browserify
+npm http 304 https://registry.npmjs.org/colors
+npm http 304 https://registry.npmjs.org/dateformat
+npm http 304 https://registry.npmjs.org/eventemitter2
+npm http 304 https://registry.npmjs.org/underscore.string
+npm http GET https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/rimraf
+npm http GET https://registry.npmjs.org/json-stringify-safe
+npm http GET https://registry.npmjs.org/node-uuid
+npm http GET https://registry.npmjs.org/forever-agent
+npm http GET https://registry.npmjs.org/mime
+npm http GET https://registry.npmjs.org/form-data
+npm http GET https://registry.npmjs.org/tough-cookie
+npm http GET https://registry.npmjs.org/tunnel-agent
+npm http GET https://registry.npmjs.org/http-signature
+npm http GET https://registry.npmjs.org/oauth-sign
+npm http GET https://registry.npmjs.org/aws-sign2
+npm http GET https://registry.npmjs.org/hawk
+npm http 304 https://registry.npmjs.org/js-yaml
+npm http 304 https://registry.npmjs.org/coffee-script
+npm http GET https://registry.npmjs.org/inherits
+npm http 304 https://registry.npmjs.org/underscore
+npm http 304 https://registry.npmjs.org/shelljs
+npm http 304 https://registry.npmjs.org/cli
+npm http 304 https://registry.npmjs.org/which
+npm http GET https://registry.npmjs.org/growl
+npm http GET https://registry.npmjs.org/jade
+npm http GET https://registry.npmjs.org/diff
+npm http GET https://registry.npmjs.org/debug
+npm http GET https://registry.npmjs.org/mkdirp
+npm http 304 https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/json-stringify-safe
+npm http 304 https://registry.npmjs.org/node-uuid
+npm http 304 https://registry.npmjs.org/console-browserify
+npm http 304 https://registry.npmjs.org/forever-agent
+npm http 304 https://registry.npmjs.org/mime
+npm http 304 https://registry.npmjs.org/form-data
+npm http 304 https://registry.npmjs.org/tough-cookie
+npm http 304 https://registry.npmjs.org/tunnel-agent
+npm http 304 https://registry.npmjs.org/http-signature
+npm http 304 https://registry.npmjs.org/oauth-sign
+npm http 304 https://registry.npmjs.org/aws-sign2
+npm http 304 https://registry.npmjs.org/growl
+npm http 304 https://registry.npmjs.org/inherits
+npm http 304 https://registry.npmjs.org/mkdirp
+npm http GET https://registry.npmjs.org/graceful-fs
+npm http 304 https://registry.npmjs.org/hawk
+npm http 304 https://registry.npmjs.org/debug
+npm http 304 https://registry.npmjs.org/jade
+npm http 304 https://registry.npmjs.org/diff
+npm http 304 https://registry.npmjs.org/graceful-fs
+npm http GET https://registry.npmjs.org/faye-websocket
+npm http GET https://registry.npmjs.org/noptify
+npm ERR! error rolling back Error: ENOTEMPTY, rmdir '/private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/commander'
+npm ERR! error rolling back  mocha@1.12.1 { [Error: ENOTEMPTY, rmdir '/private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/commander']
+npm ERR! error rolling back   errno: 53,
+npm ERR! error rolling back   code: 'ENOTEMPTY',
+npm ERR! error rolling back   path: '/private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/commander' }
+npm ERR! Error: ENOENT, open '/private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/debug/Readme.md'
+npm ERR! If you need help, you may report this *entire* log,
+npm ERR! including the npm and node versions, at:
+npm ERR!     <http://github.com/npm/npm/issues>
+
+npm ERR! System Darwin 12.5.0
+npm ERR! command "node" "/Users/jason/.nvm/v0.10.26/bin/npm" "install" "--cache=./npm_cache"
+npm ERR! cwd /private/tmp/testapp
+npm ERR! node -v v0.10.26
+npm ERR! npm -v 1.4.8
+npm ERR! path /private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/debug/Readme.md
+npm ERR! code ENOENT
+npm ERR! errno 34
+npm ERR! Error: ENOENT, lstat '/private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/jade/LICENSE'
+npm ERR! If you need help, you may report this *entire* log,
+npm ERR! including the npm and node versions, at:
+npm ERR!     <http://github.com/npm/npm/issues>
+
+npm ERR! System Darwin 12.5.0
+npm ERR! command "node" "/Users/jason/.nvm/v0.10.26/bin/npm" "install" "--cache=./npm_cache"
+npm ERR! cwd /private/tmp/testapp
+npm ERR! node -v v0.10.26
+npm ERR! npm -v 1.4.8
+npm ERR! path /private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/jade/LICENSE
+npm ERR! fstream_path /private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/jade/LICENSE
+npm ERR! fstream_type File
+npm ERR! fstream_class FileWriter
+npm ERR! code ENOENT
+npm ERR! errno 34
+npm ERR! fstream_stack /Users/jason/.nvm/v0.10.26/lib/node_modules/npm/node_modules/fstream/lib/writer.js:284:26
+npm ERR! fstream_stack Object.oncomplete (fs.js:107:15)
+npm ERR! Error: ENOENT, lstat '/private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/growl/History.md'
+npm ERR! If you need help, you may report this *entire* log,
+npm ERR! including the npm and node versions, at:
+npm ERR!     <http://github.com/npm/npm/issues>
+
+npm ERR! System Darwin 12.5.0
+npm ERR! command "node" "/Users/jason/.nvm/v0.10.26/bin/npm" "install" "--cache=./npm_cache"
+npm ERR! cwd /private/tmp/testapp
+npm ERR! node -v v0.10.26
+npm ERR! npm -v 1.4.8
+npm ERR! path /private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/growl/History.md
+npm ERR! fstream_path /private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/growl/History.md
+npm ERR! fstream_type File
+npm ERR! fstream_class FileWriter
+npm ERR! code ENOENT
+npm ERR! errno 34
+npm ERR! fstream_stack /Users/jason/.nvm/v0.10.26/lib/node_modules/npm/node_modules/fstream/lib/writer.js:284:26
+npm ERR! fstream_stack Object.oncomplete (fs.js:107:15)
+npm ERR! Error: ENOENT, lstat '/private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/mkdirp/LICENSE'
+npm ERR! If you need help, you may report this *entire* log,
+npm ERR! including the npm and node versions, at:
+npm ERR!     <http://github.com/npm/npm/issues>
+
+npm ERR! System Darwin 12.5.0
+npm ERR! command "node" "/Users/jason/.nvm/v0.10.26/bin/npm" "install" "--cache=./npm_cache"
+npm ERR! cwd /private/tmp/testapp
+npm ERR! node -v v0.10.26
+npm ERR! npm -v 1.4.8
+npm ERR! path /private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/mkdirp/LICENSE
+npm ERR! fstream_path /private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/mkdirp/LICENSE
+npm ERR! fstream_type File
+npm ERR! fstream_class FileWriter
+npm ERR! code ENOENT
+npm ERR! errno 34
+npm ERR! fstream_stack /Users/jason/.nvm/v0.10.26/lib/node_modules/npm/node_modules/fstream/lib/writer.js:284:26
+npm ERR! fstream_stack Object.oncomplete (fs.js:107:15)
+npm ERR! Error: ENOENT, lstat '/private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/diff/diff.js'
+npm ERR! If you need help, you may report this *entire* log,
+npm ERR! including the npm and node versions, at:
+npm ERR!     <http://github.com/npm/npm/issues>
+
+npm ERR! System Darwin 12.5.0
+npm ERR! command "node" "/Users/jason/.nvm/v0.10.26/bin/npm" "install" "--cache=./npm_cache"
+npm ERR! cwd /private/tmp/testapp
+npm ERR! node -v v0.10.26
+npm ERR! npm -v 1.4.8
+npm ERR! path /private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/diff/diff.js
+npm ERR! fstream_path /private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/diff/diff.js
+npm ERR! fstream_type File
+npm ERR! fstream_class FileWriter
+npm ERR! code ENOENT
+npm ERR! errno 34
+npm ERR! fstream_stack /Users/jason/.nvm/v0.10.26/lib/node_modules/npm/node_modules/fstream/lib/writer.js:284:26
+npm ERR! fstream_stack Object.oncomplete (fs.js:107:15)
+npm ERR! error rolling back Error: ENOTEMPTY, rmdir '/private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules'
+npm ERR! error rolling back  mocha-phantomjs@3.1.0 { [Error: ENOTEMPTY, rmdir '/private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules']
+npm ERR! error rolling back   errno: 53,
+npm ERR! error rolling back   code: 'ENOTEMPTY',
+npm ERR! error rolling back   path: '/private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules' }
+npm ERR! Error: ENOENT, open '/private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/glob/package.json'
+npm ERR! If you need help, you may report this *entire* log,
+npm ERR! including the npm and node versions, at:
+npm ERR!     <http://github.com/npm/npm/issues>
+
+npm ERR! System Darwin 12.5.0
+npm ERR! command "node" "/Users/jason/.nvm/v0.10.26/bin/npm" "install" "--cache=./npm_cache"
+npm ERR! cwd /private/tmp/testapp
+npm ERR! node -v v0.10.26
+npm ERR! npm -v 1.4.8
+npm ERR! path /private/tmp/testapp/node_modules/mocha-phantomjs/node_modules/mocha/node_modules/glob/package.json
+npm ERR! code ENOENT
+npm ERR! errno 34
+npm http GET https://registry.npmjs.org/combined-stream
+npm http GET https://registry.npmjs.org/fileset
+npm http 304 https://registry.npmjs.org/faye-websocket
+npm http 304 https://registry.npmjs.org/noptify
+npm ERR! ReferenceError: resp is not defined
+npm ERR!     at /Users/jason/.nvm/v0.10.26/lib/node_modules/npm/lib/cache.js:714:32
+npm ERR!     at saved (/Users/jason/.nvm/v0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:148:7)
+npm ERR!     at /Users/jason/.nvm/v0.10.26/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
+npm ERR!     at Object.oncomplete (fs.js:107:15)
+npm ERR! If you need help, you may report this *entire* log,
+npm ERR! including the npm and node versions, at:
+npm ERR!     <http://github.com/npm/npm/issues>
+
+npm ERR! System Darwin 12.5.0
+npm ERR! command "node" "/Users/jason/.nvm/v0.10.26/bin/npm" "install" "--cache=./npm_cache"
+npm ERR! cwd /private/tmp/testapp
+npm ERR! node -v v0.10.26
+npm ERR! npm -v 1.4.8
+npm ERR! type not_defined
+npm http 304 https://registry.npmjs.org/combined-stream
+npm http 304 https://registry.npmjs.org/fileset
+npm http GET https://registry.npmjs.org/ctype
+npm http GET https://registry.npmjs.org/assert-plus
+npm http GET https://registry.npmjs.org/asn1
+npm http GET https://registry.npmjs.org/bower-config
+npm http GET https://registry.npmjs.org/bower-endpoint-parser
+npm http GET https://registry.npmjs.org/bower-json
+npm http GET https://registry.npmjs.org/bower-registry-client
+npm http GET https://registry.npmjs.org/bower-logger
+npm http GET https://registry.npmjs.org/cardinal
+npm http GET https://registry.npmjs.org/chmodr
+npm http GET https://registry.npmjs.org/decompress-zip
+npm http GET https://registry.npmjs.org/fstream
+npm http GET https://registry.npmjs.org/fstream-ignore
+npm http GET https://registry.npmjs.org/handlebars
+npm http GET https://registry.npmjs.org/junk
+npm http GET https://registry.npmjs.org/inquirer
+npm http GET https://registry.npmjs.org/mout
+npm http GET https://registry.npmjs.org/open
+npm http GET https://registry.npmjs.org/osenv
+npm http GET https://registry.npmjs.org/promptly
+npm http GET https://registry.npmjs.org/request-progress
+npm http GET https://registry.npmjs.org/retry
+npm http GET https://registry.npmjs.org/stringify-object
+npm http GET https://registry.npmjs.org/sudo-block
+npm http GET https://registry.npmjs.org/q
+npm http GET https://registry.npmjs.org/semver
+npm http 304 https://registry.npmjs.org/ctype
+npm http 304 https://registry.npmjs.org/asn1
+npm http GET https://registry.npmjs.org/tar
+npm http GET https://registry.npmjs.org/tmp
+npm http GET https://registry.npmjs.org/update-notifier
+npm http GET https://registry.npmjs.org/p-throttler
+npm http 304 https://registry.npmjs.org/assert-plus
+npm http GET https://registry.npmjs.org/archy
+npm http 304 https://registry.npmjs.org/bower-config
+npm http GET https://registry.npmjs.org/argparse
+npm http GET https://registry.npmjs.org/esprima
+npm http 304 https://registry.npmjs.org/bower-endpoint-parser
+npm http 304 https://registry.npmjs.org/bower-registry-client
+npm http 304 https://registry.npmjs.org/bower-logger
+npm http 304 https://registry.npmjs.org/bower-json
+npm http GET https://registry.npmjs.org/delayed-stream
+npm http 304 https://registry.npmjs.org/cardinal
+npm http 304 https://registry.npmjs.org/chmodr
+npm http GET https://registry.npmjs.org/punycode
+npm http GET https://registry.npmjs.org/cryptiles
+npm http GET https://registry.npmjs.org/hoek
+npm http GET https://registry.npmjs.org/boom
+npm http GET https://registry.npmjs.org/sntp
+npm http 304 https://registry.npmjs.org/decompress-zip
+npm http 304 https://registry.npmjs.org/fstream
+npm http 304 https://registry.npmjs.org/fstream-ignore
+npm http 304 https://registry.npmjs.org/handlebars
+npm http 304 https://registry.npmjs.org/junk
+npm http 304 https://registry.npmjs.org/mout
+npm http 304 https://registry.npmjs.org/inquirer
+npm http 304 https://registry.npmjs.org/open
+npm http 304 https://registry.npmjs.org/osenv
+npm http 304 https://registry.npmjs.org/promptly
+npm http 304 https://registry.npmjs.org/request-progress
+npm http 304 https://registry.npmjs.org/retry
+npm http 304 https://registry.npmjs.org/stringify-object
+npm http 304 https://registry.npmjs.org/q
+npm http 304 https://registry.npmjs.org/semver
+npm http 304 https://registry.npmjs.org/sudo-block
+npm http 304 https://registry.npmjs.org/tar
+npm http 304 https://registry.npmjs.org/argparse
+npm http 304 https://registry.npmjs.org/esprima
+npm http 304 https://registry.npmjs.org/tmp
+npm http 304 https://registry.npmjs.org/update-notifier
+npm http 304 https://registry.npmjs.org/delayed-stream
+npm http 304 https://registry.npmjs.org/archy
+npm http 304 https://registry.npmjs.org/punycode
+npm http 304 https://registry.npmjs.org/p-throttler
+npm http 304 https://registry.npmjs.org/cryptiles
+npm http 304 https://registry.npmjs.org/hoek
+npm http 304 https://registry.npmjs.org/boom
+npm http 304 https://registry.npmjs.org/sntp
+npm http GET https://registry.npmjs.org/configstore
+npm http GET https://registry.npmjs.org/throttleit
+npm http GET https://registry.npmjs.org/read
+npm http GET https://registry.npmjs.org/optimist
+npm http 304 https://registry.npmjs.org/configstore
+npm http GET https://registry.npmjs.org/deep-extend
+npm http GET https://registry.npmjs.org/intersect
+npm http 304 https://registry.npmjs.org/throttleit
+npm http GET https://registry.npmjs.org/mkpath
+npm http GET https://registry.npmjs.org/binary
+npm http GET https://registry.npmjs.org/touch
+npm http GET https://registry.npmjs.org/readable-stream
+npm http 304 https://registry.npmjs.org/optimist
+npm http 304 https://registry.npmjs.org/read
+npm http 304 https://registry.npmjs.org/mkpath
+npm http GET https://registry.npmjs.org/uuid
+npm http GET https://registry.npmjs.org/object-assign
+npm http 304 https://registry.npmjs.org/binary
+npm http 304 https://registry.npmjs.org/readable-stream
+npm http 304 https://registry.npmjs.org/intersect
+npm http 304 https://registry.npmjs.org/deep-extend
+npm http 304 https://registry.npmjs.org/touch
+npm http 304 https://registry.npmjs.org/uuid
+npm http GET https://registry.npmjs.org/mute-stream
+npm http 304 https://registry.npmjs.org/object-assign
+npm http GET https://registry.npmjs.org/request-replay
+npm http GET https://registry.npmjs.org/redeyed
+npm http GET https://registry.npmjs.org/ansicolors
+npm http GET https://registry.npmjs.org/block-stream
+npm http 304 https://registry.npmjs.org/mute-stream
+npm http 304 https://registry.npmjs.org/request-replay
+npm http 304 https://registry.npmjs.org/redeyed
+npm http GET https://registry.npmjs.org/wordwrap
+npm http GET https://registry.npmjs.org/minimist
+npm http 304 https://registry.npmjs.org/block-stream
+npm http 304 https://registry.npmjs.org/ansicolors
+npm http GET https://registry.npmjs.org/string_decoder
+npm http GET https://registry.npmjs.org/isarray
+npm http GET https://registry.npmjs.org/core-util-is
+npm http GET https://registry.npmjs.org/cli-color
+npm http 304 https://registry.npmjs.org/wordwrap
+npm http 304 https://registry.npmjs.org/minimist
+npm http 304 https://registry.npmjs.org/isarray
+npm http 304 https://registry.npmjs.org/core-util-is
+npm http GET https://registry.npmjs.org/uglify-js
+npm http 304 https://registry.npmjs.org/cli-color
+npm http 304 https://registry.npmjs.org/string_decoder
+npm http GET https://registry.npmjs.org/chainsaw
+npm http GET https://registry.npmjs.org/buffers
+npm http 304 https://registry.npmjs.org/uglify-js
+npm http 304 https://registry.npmjs.org/chainsaw
+npm http 304 https://registry.npmjs.org/buffers
+npm http GET https://registry.npmjs.org/aws-sign
+npm http GET https://registry.npmjs.org/cookie-jar
+npm http GET https://registry.npmjs.org/traverse
+npm http 304 https://registry.npmjs.org/traverse
+npm http 304 https://registry.npmjs.org/cookie-jar
+npm http 304 https://registry.npmjs.org/aws-sign
+npm http GET https://registry.npmjs.org/es5-ext
+npm http GET https://registry.npmjs.org/memoizee
+npm http 304 https://registry.npmjs.org/es5-ext
+npm http 304 https://registry.npmjs.org/memoizee
+npm http GET https://registry.npmjs.org/source-map
+npm http GET https://registry.npmjs.org/event-emitter
+npm http GET https://registry.npmjs.org/next-tick
+npm http 304 https://registry.npmjs.org/source-map
+npm http 304 https://registry.npmjs.org/event-emitter
+npm http 304 https://registry.npmjs.org/next-tick
+npm http GET https://registry.npmjs.org/amdefine
+npm http 304 https://registry.npmjs.org/amdefine
+npm http GET https://registry.npmjs.org/node-watch
+npm http GET https://registry.npmjs.org/nan
+npm http GET https://registry.npmjs.org/sinon
+npm http 304 https://registry.npmjs.org/sinon
+npm http 304 https://registry.npmjs.org/nan
+npm http 304 https://registry.npmjs.org/node-watch
+npm http GET https://registry.npmjs.org/formatio
+npm http GET https://registry.npmjs.org/util
+npm http 304 https://registry.npmjs.org/util
+npm http 304 https://registry.npmjs.org/formatio
+npm http GET https://registry.npmjs.org/samsam
+npm http 304 https://registry.npmjs.org/samsam
+
+^[[1;2H
+npm http GET https://registry.npmjs.org/commander
+npm http GET https://registry.npmjs.org/mkdirp
+npm http 304 https://registry.npmjs.org/mkdirp
+npm http 304 https://registry.npmjs.org/commander
+
+> node-sass@0.8.6 install /private/tmp/testapp/node_modules/grunt-sass/node_modules/node-sass
+> node build.js
+
+`darwin-x64-v8-3.14` exists; testing
+
+  ․․․․․․․․․․․․․․․․․․․․․․
+
+  22 passing (25ms)
+
+Binary is fine; exiting
+npm ERR!
+npm ERR! Additional logging details can be found in:
+npm ERR!     /private/tmp/testapp/npm-debug.log
+npm ERR! not ok code 0
